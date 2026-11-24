@@ -1,4 +1,4 @@
-const CACHE_NAME = 'adhkar-pwa-v4';
+const CACHE_NAME = 'adhkar-pwa-v5';
 const ASSETS = [
   './',
   './index.html',
