@@ -685,6 +685,15 @@
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('./sw.js').catch(() => {});
         });
+    }
+
+    let state = {
+        mode: 'morning',
+        fontSize: 23,
+        counts: {
+            morning: {},
+            evening: {}
+        }
     };
 
     function toArabicDigits(num) {
